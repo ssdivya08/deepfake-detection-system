@@ -3,9 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from PIL import Image
-
 st.set_page_config(page_title="Deepfake Detector", layout="wide")
-
 st.title("AI Deepfake Face Detection")
 
 model = load_model("deepfake_detector.h5", compile=False)
