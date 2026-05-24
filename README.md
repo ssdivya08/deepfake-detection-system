@@ -51,21 +51,37 @@ http://localhost:8501
 ```
 
 🧪 How It Works
+
 User uploads a facial image
+
 The image is resized and preprocessed
+
 The trained deep learning model analyzes the image
+
 The system predicts whether the face is Real or Fake
+
 Prediction result and confidence score are displayed
+
 📊 Model Details
+
 Model: MobileNetV2 (Transfer Learning)
+
 Framework: TensorFlow / Keras
+
 Image Size: 160 × 160
+
 Loss Function: Binary Crossentropy
+
 Output Classes:
+
 Real Face
+
 Fake Face
+
 📷 Example Output
+
 Prediction: Real Face
+
 Confidence: 92%
 
 ## 📷 Screenshots
@@ -87,11 +103,17 @@ Hugging Face Deployment:
 https://huggingface.co/spaces/ssaidivya/deepfake-detector
 
 🔮 Future Improvements
+
 Add face detection before prediction
+
 Improve accuracy using larger datasets
+
 Support video deepfake detection
+
 Cloud deployment and scalability improvements
+
 Add explainable AI visualizations
+
 📜 License
 
 This project is developed for educational and research purposes.
