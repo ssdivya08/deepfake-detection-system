@@ -69,13 +69,13 @@ Confidence: 92%
 ## 📷 Screenshots
 
 ### Main Interface
-![Main UI](screenshots/main-ui.png)
+![Main UI](screenshots/main-ui.png.png)
 
 ### Fake Face Detection
-![Fake Prediction](screenshots/fake-face.png)
+![Fake Prediction](screenshots/fake-face.png.png)
 
 ### Real Face Detection
-![Real Prediction](screenshots/real-face.png)
+![Real Prediction](screenshots/real-face.png.png)
 
 
 🌐 Deployment
