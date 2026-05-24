@@ -1,78 +1,92 @@
-Deepfake Face Detection using Deep Learning
-📌 Project Overview
+# Deepfake Face Detection using Deep Learning
 
-This project detects whether a face image is Real or Fake (Deepfake) using a deep learning model built with TensorFlow.
-The application provides a simple web interface where users can upload an image and instantly receive a prediction.
+## 📌 Project Overview
+This project detects whether a facial image is **Real** or **Fake (Deepfake)** using a deep learning model built with TensorFlow and MobileNetV2.
 
-The model was trained using transfer learning with MobileNetV2 for efficient and fast image classification.
+The application provides a simple and interactive web interface where users can upload an image and instantly receive a prediction with a confidence score.
 
-🚀 Features
+The model uses **Transfer Learning** with MobileNetV2 for efficient and accurate image classification.
 
-Upload an image and detect Real vs Fake faces
+---
 
-Deep learning model trained on deepfake dataset
+## 🚀 Features
+- Upload facial images for prediction
+- Detect Real vs Fake (Deepfake) faces
+- Confidence score for predictions
+- Streamlit-based interactive web application
+- Lightweight and fast deep learning model
+- Hugging Face deployment support
 
-Fast predictions using a lightweight CNN architecture
+---
 
-Interactive web interface built with Streamlit
+## 🧠 Technologies Used
+- Python
+- TensorFlow / Keras
+- MobileNetV2
+- Streamlit
+- NumPy
+- OpenCV
+- Pillow
 
-Confidence score displayed for predictions
+---
 
-🧠 Technologies Used
+## ▶️ Run the Application
 
-Python
+Clone the repository:
 
-TensorFlow / Keras
+```bash
+git clone https://github.com/ssdivya08/deepfake-detection-system.git
 
-Streamlit
+Install dependencies:
 
-NumPy
+pip install -r requirements.txt
 
-Pillow
+Run the Streamlit app:
 
-OpenCV
-
-▶️ Run the Application
 streamlit run main.py
 
-Then open your browser and go to:
+Open in browser:
 
 http://localhost:8501
 🧪 How It Works
-
-User uploads an image through the web interface.
-
-The image is resized and preprocessed.
-
-The trained deep learning model analyzes the image.
-
-The system predicts whether the face is Real or Fake.
-
-The result and confidence score are displayed.
-
+User uploads a facial image
+The image is resized and preprocessed
+The trained deep learning model analyzes the image
+The system predicts whether the face is Real or Fake
+Prediction result and confidence score are displayed
 📊 Model Details
-
 Model: MobileNetV2 (Transfer Learning)
-
-Image size: 160 × 160
-
-Loss function: Binary Crossentropy
-
-Output: Real Face or Fake Face
-
+Framework: TensorFlow / Keras
+Image Size: 160 × 160
+Loss Function: Binary Crossentropy
+Output Classes:
+Real Face
+Fake Face
 📷 Example Output
 Prediction: Real Face
 Confidence: 92%
+
+## 📷 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Prediction Output
+![Prediction Output](screenshots/output.png)
+
+
+🌐 Deployment
+
+Hugging Face Deployment:
+
+https://huggingface.co/spaces/ssaidivya/deepfake-detector
+
 🔮 Future Improvements
-
 Add face detection before prediction
-
 Improve accuracy using larger datasets
-
-Deploy the model on cloud platforms
-
 Support video deepfake detection
-
+Cloud deployment and scalability improvements
+Add explainable AI visualizations
 📜 License
 
-This project is for educational and research purposes only.
+This project is developed for educational and research purposes.
