@@ -48,6 +48,8 @@ streamlit run main.py
 Open in browser:
 
 http://localhost:8501
+```
+
 🧪 How It Works
 User uploads a facial image
 The image is resized and preprocessed
