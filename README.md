@@ -1,6 +1,6 @@
 # Deepfake Face Detection using Deep Learning
 
-## 📌 Project Overview
+##  Project Overview
 This project detects whether a facial image is **Real** or **Fake (Deepfake)** using a deep learning model built with TensorFlow and MobileNetV2.
 
 The application provides a simple and interactive web interface where users can upload an image and instantly receive a prediction with a confidence score.
@@ -9,7 +9,7 @@ The model uses **Transfer Learning** with MobileNetV2 for efficient and accurate
 
 ---
 
-## 🚀 Features
+##  Features
 - Upload facial images for prediction
 - Detect Real vs Fake (Deepfake) faces
 - Confidence score for predictions
@@ -19,7 +19,7 @@ The model uses **Transfer Learning** with MobileNetV2 for efficient and accurate
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 - Python
 - TensorFlow / Keras
 - MobileNetV2
@@ -30,7 +30,7 @@ The model uses **Transfer Learning** with MobileNetV2 for efficient and accurate
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 Clone the repository:
 
@@ -50,7 +50,7 @@ Open in browser:
 http://localhost:8501
 ```
 
-🧪 How It Works
+ How It Works
 
 User uploads a facial image
 
@@ -62,7 +62,7 @@ The system predicts whether the face is Real or Fake
 
 Prediction result and confidence score are displayed
 
-📊 Model Details
+ Model Details
 
 Model: MobileNetV2 (Transfer Learning)
 
@@ -78,13 +78,13 @@ Real Face
 
 Fake Face
 
-📷 Example Output
+ Example Output
 
 Prediction: Real Face
 
 Confidence: 92%
 
-## 📷 Screenshots
+##  Screenshots
 
 ### Main Interface
 ![Main UI](screenshots/main-ui.png.png)
@@ -96,13 +96,13 @@ Confidence: 92%
 ![Real Prediction](screenshots/real-face.png.png)
 
 
-🌐 Deployment
+ Deployment
 
 Hugging Face Deployment:
 
 https://huggingface.co/spaces/ssaidivya/deepfake-detector
 
-🔮 Future Improvements
+ Future Improvements
 
 Add face detection before prediction
 
@@ -114,6 +114,6 @@ Cloud deployment and scalability improvements
 
 Add explainable AI visualizations
 
-📜 License
+ License
 
 This project is developed for educational and research purposes.
